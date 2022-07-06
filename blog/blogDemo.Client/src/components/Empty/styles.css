@@ -1,0 +1,9 @@
+.empty {
+    text-align: center;
+}
+
+.empty h1 {
+    font-size: 3rem;
+    color: #0f52ba;
+    margin-bottom: 1rem;
+}
