@@ -7,9 +7,6 @@ using BlogDemo.API.Models;
 
 namespace BlogDemo.API.Context
 {
-
-
-
     public class BlogContext : DbContext
     {
         public BlogContext (DbContextOptions<BlogContext> options)
