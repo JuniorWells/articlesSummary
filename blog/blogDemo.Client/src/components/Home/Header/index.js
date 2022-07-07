@@ -4,9 +4,6 @@ import './styles.css';
 const Header = () => {
     return (
         <header className="home__header">
-            {/* <h2>
-                Inc. This Morning
-            </h2> */}
             <h1>
                 <span>“</span> Blog <span>”</span>
             </h1>

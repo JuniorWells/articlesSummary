@@ -28,8 +28,6 @@
 .blog__subCategory {
   display: flex;
   justify-content: center;
-}
-.blog__subCategory > div {
   margin: 1rem;
 }
 .blog__desc {

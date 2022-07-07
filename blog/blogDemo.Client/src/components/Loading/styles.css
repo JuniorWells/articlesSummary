@@ -1,0 +1,62 @@
+.loading {
+    text-align: center;
+}
+
+.loading h1 {
+    font-size: 3rem;
+    color: #0f52ba;
+    margin-bottom: 1rem;
+}
+
+.fade-out {
+    animation: fadeOut ease 3s;
+    -webkit-animation: fadeOut ease 3s;
+    -moz-animation: fadeOut ease 3s;
+    -o-animation: fadeOut ease 3s;
+    -ms-animation: fadeOut ease 3s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+  
+@-moz-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+  
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+  
+@-o-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+  
+@-ms-keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}

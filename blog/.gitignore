@@ -3,3 +3,4 @@ node_modules/
 WeatherFo*
 BlogDemo.API/bin
 BlogDemo.API/obj
+BlogDemo.API/Migrations

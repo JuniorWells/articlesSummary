@@ -4,15 +4,8 @@ const fetchData = async () => {
   return temp;
 }
 
-const arr = [];
+const blogList = [];
 fetchData()
-  .then(response => {
-    arr.push(...response);
-  });
+  .then(response => blogList.push(...response));
 
-console.log(arr);
-
-
-
-const blogList = arr;
 export default blogList;
