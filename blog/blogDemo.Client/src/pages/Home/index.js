@@ -3,7 +3,7 @@ import BlogList from "../../components/Home/BlogList";
 import Header from "../../components/Home/Header";
 import SearchBar from "../../components/Home/SearchBar";
 import Empty from "../../components/Empty";
-import { blogList } from "../../data/data";
+import blogList from "../../data/data";
 
 const Home = () => {
     const [blogs, setBlogs] = useState(blogList);

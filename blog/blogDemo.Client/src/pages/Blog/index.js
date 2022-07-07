@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { blogList } from '../../data/data';
+import blogList from '../../data/data';
 import Label from '../../components/Label';
 import Empty from '../../components/Empty';
 import './styles.css';
