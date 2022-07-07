@@ -4,12 +4,15 @@ const fetchData = async () => {
   return temp;
 }
 
+const arr = [];
+fetchData()
+  .then(response => {
+    arr.push(...response);
+  });
 
-const data = fetchData().then(post => post);
-
-console.log(data);
+console.log(arr);
 
 
 
-const blogList = data;
+const blogList = arr;
 export default blogList;
