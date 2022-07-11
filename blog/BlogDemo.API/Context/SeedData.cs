@@ -11,9 +11,9 @@ public static class SeedData
         serviceProvider.GetRequiredService<
         DbContextOptions<BlogContext>>()))
         {
-            if (context.BlogPost.Any()) { return; }
+            if (context!.BlogPost!.Any()) { return; }
             
-            context.BlogPost.AddRange(
+            context!.BlogPost!.AddRange(
             new BlogPost
             {
                 Title = "Watch Now: 52 wildfires break out in the last 24 hours across Greece",

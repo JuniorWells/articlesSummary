@@ -6,5 +6,5 @@ services:
     ports:
       - '1433:1433'
     environment:
-      SA_PASSWORD: 'meli1tz@neS'
+      SA_PASSWORD: 's@f3Password'
       ACCEPT_EULA: 'Y'

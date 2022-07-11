@@ -24,16 +24,16 @@ namespace BlogDemo.API.Controllers
         [HttpGet]
         public IEnumerable<BlogPost> Get()
         {
-            return _context.BlogPost;
+            return _context.BlogPost!;
         }
 
         [HttpGet("{id}")]
         public BlogPost GetOne(int? id)
         {
             if (id == null || _context.BlogPost == null)
-                return null;
+                return new BlogPost();
 
-            return _context.BlogPost.Where(c => c.Id == id).SingleOrDefault();
+            return _context.BlogPost.Where(c => c.Id == id).SingleOrDefault()!;
         }
     }
 }
